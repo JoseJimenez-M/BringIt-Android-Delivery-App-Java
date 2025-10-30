@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "56180859707",
+    "project_id": "bringit-b21bf",
+    "storage_bucket": "bringit-b21bf.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:56180859707:android:ee07a0f27ff14bd2dbcd1e",
+        "android_client_info": {
+          "package_name": "com.example.ecommerce"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "56180859707-abvon39b1ki5jk0dehhrf2nl3942aa1l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ecommerce",
+            "certificate_hash": "79f32b01fbbd72191d84bab4504cdc0d59c4a409"
+          }
+        },
+        {
+          "client_id": "56180859707-s8e5tl95kok67i5063seqo8ei3vb255a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_Qo34BkM53EcUygrobe0HPyRbokrKDek"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "56180859707-s8e5tl95kok67i5063seqo8ei3vb255a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
