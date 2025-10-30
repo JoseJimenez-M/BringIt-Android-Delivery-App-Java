@@ -44,6 +44,26 @@ The entire application flow, user journeys, and mock-ups were designed using **F
 > **[View the Design Prototype on Figma](https://www.figma.com/design/jU5CDig08ld0ylWkXgtQNQ/ZE-DELIVERY?node-id=0-1&t=8vTOI3QXz7Tox8qk-1)**
 
 
+## 🔑 Security & Configuration
+
+This project relies on Google Services (Firebase/Google Maps). For security reasons, the configuration files are not included in the repository. The necessary configuration file, google-services.json, must be manually downloaded from your own Firebase project.
+
+1. Create a Firebase Project: Set up a new project in the Firebase Console.
+
+2. Register Android App: Register a new Android application within your Firebase project, ensuring the package name matches the one in this repository (com.example.bringit).
+
+3. Download google-services.json: Download the generated google-services.json file.
+
+4. Place the File: Place the downloaded file into the app/ directory of this project.
+
+   Important Security Note: When enabling the Google Maps API key, ensure you add Android app restrictions to limit its use solely to the package name of this application. This prevents unauthorized usage and protects against unexpected charges.
+
+Once configured:
+
+1. Open the project in Android Studio.
+
+2. Build and run on an Android emulator or device (API 21+ recommended).
+---
 ## DEMO
 1.Youtube:https://youtube.com/shorts/5cXU52d-EQY?feature=share
 
