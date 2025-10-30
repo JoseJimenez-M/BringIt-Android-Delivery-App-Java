@@ -1,58 +1,68 @@
-# Android Mobile Development - Project
+# 📦 BringIt: On-Demand Logistics and Delivery Platform
 
-This template repository is the starter project for Android Mobile Development project. Written in Java.
+[![GitHub language count](https://img.shields.io/github/languages/count/JoseJimenez-M/BringIt-Android-Delivery-App-Java)](https://github.com/JoseJimenez-M/BringIt-Android-Delivery-App-Java)
+[![GitHub top language](https://img.shields.io/github/languages/top/JoseJimenez-M/BringIt-Android-Delivery-App-Java)](https://github.com/JoseJimenez-M/BringIt-Android-Delivery-App-Java)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-## Deliverables
+**BringIt** is a full-featured, native Android mobile application designed to simulate a modern, on-demand delivery and logistics service. It was developed to master key concepts in native Android development, focusing on robust architecture, secure communication, and real-time user experiences.
 
-### Deliverable 0
+## 🛠️ Tech Stack & Key Technologies
 
-The holistic learning of the course will be evaluated through the term project in which a team of 2-3 students should design and implement a mobile application from scratch. The app selected should cover a challenging task.
+This project showcases expertise in integrating advanced Android and third-party services.
 
-At the end of the term, each team needs to submit a project report, present their ideas and also demonstrate the app to the teacher/class. A team of three students (max) would be considered a team. There will be three deliverables
+| Category | Technology/Library | Description |
+| :--- | :--- | :--- |
+| **Primary Language** | **Java** | Core development language for the native Android application. |
+| **Platform** | **Native Android** | Built for stability and performance across Android devices. |
+| **Geolocation** | **Google Maps SDK** | Real-time map display, route calculation, and driver tracking. |
+| **Location Services** | **Location Awareness & Places API** | Handling location permissions and address lookups. |
+| **Data Communication** | **RESTful API Calls** | Asynchronous data fetching and updates using **JSON** payloads. |
+| **Concurrency** | **`AsyncTasks` / `Threads`** | Efficient management of background operations (API calls) to keep the UI responsive. |
+| **Data Layer** | **CRUD Operations** | Implemented against a persistent backend for user data and order management. |
+| **UI/UX** | **Material Design** | Clean, intuitive interface with a high focus on activity flow (minimum 10 screens/fragments). |
+| **Security** | **Authentication Modules** | Secure user login via **Email** and **SMS/Call** verification protocols. |
 
-Team members present their app idea (PowerPoint) and design the prototype of the application.
+---
 
-The PowerPoint presents the title of the project, team members, description of the project, number of screen flows, chosen database, presenting GitHub link, and mock-up that depicts the entire navigation of the app.
+## ✨ Features Implemented
 
-For this deliverable, you have the following tasks:
+BringIt covers the entire lifecycle of an on-demand service, from user authentication to real-time tracking.
 
-• Project Description (innovation) – 1%  
-• Mock-up design – 2%
+* **Secure Authentication:** Multi-factor authentication support (Email & Phone verification).
+* **Real-Time Tracking:** Users can track the delivery vehicle on the map using integrated location services.
+* **Persistent Data Management:** Full **CRUD** functionality for managing user profiles, order creation, and status updates.
+* **Notification System:** Uses the **Notification Manager** to send timely alerts about order changes and driver arrival.
+* **Complex Navigation Flow:** A deep structure featuring a minimum of **10 distinct activities/fragments/ListViews** to manage the ordering process.
+* **Data Display:** Dynamic data presentation using `ListView` components, loading data asynchronously from the API.
 
-You could use tools like [Moqups](https://moqups.com/) or [Figma](https://www.figma.com/) for making the mock-up design and wiring.
+---
 
-### Deliverable 1
+## 🎨 Design & Prototype
 
-For this deliverable, you have the following tasks based on your course outline **(10%)**:
+The entire application flow, user journeys, and mock-ups were designed using **Figma** prior to development, ensuring a streamlined and intuitive user experience.
 
-• UI Interface (material design, activity flow) – 2%  
-• Database connection (backend connection) – 2%  
-• CRUD operations – 2%  
-• Landing page (Home screen) – 2%  
-• ListView implementation (displaying the data) – 2%
-
-Also, include a document explaining task distribution between team members.
-
-### Deliverable 2
-
-For this deliverable, you have the following tasks based on your course outline **(13%)**:
-
-• Completed UI interface (Entire Navigation flow of minimum 10 activities/fragments/ListView) – 3%  
-• API calls (JSON, Async, Threading) – 2%  
-• Notification manager – 2%  
-• Authentication (Email, SMS, call) – 2%  
-• Location awareness (Google maps, places, address) – 2%  
-• Running on an emulator – 2%
-
-Final report: **(4%)**  
-• Project Aim and description  
-• Functional and non-functional requirements  
-• User stories  
-• Test cases  
-• Individual’s role and responsibilities
+> **[View the Design Prototype on Figma](https://www.figma.com/design/jU5CDig08ld0ylWkXgtQNQ/ZE-DELIVERY?node-id=0-1&t=8vTOI3QXz7Tox8qk-1)**
 
 
-Planning: https://docs.google.com/document/d/1cFnt-2gxJ3SbRO1P921o9_k3NY8dHBx0v382bEMuLic/edit?usp=sharing
-FIGMA: https://www.figma.com/design/jU5CDig08ld0ylWkXgtQNQ/ZE-DELIVERY?node-id=0-1&t=8vTOI3QXz7Tox8qk-1
+## DEMO
+1.Youtube:https://youtube.com/shorts/5cXU52d-EQY?feature=share
+
+### Screenshots 
+
+**1:**
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/2407196f-004b-41ec-a71d-c27d1aad4797" width="30%" alt="Captura 4: Creación de Pedido"/>
+  <img src="https://github.com/user-attachments/assets/3d110306-7d0a-47b8-aa6c-e933c0d1c039" width="30%" alt="Captura 5: Detalles del Ítem"/>
+  <img src="https://github.com/user-attachments/assets/4144108d-2bda-455d-8471-e10f1dc9c0f8" width="30%" alt="Captura 6: Confirmación de Pago"/>
+</p>
+
+**2:**
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/0be98932-1c03-4175-84e1-5530a4123c50" width="30%" alt="Captura 7: Perfil de Usuario"/>
+  <img src="https://github.com/user-attachments/assets/4dc4026f-edcf-40d6-b5b0-c255711b42b6" width="30%" alt="Captura 8: Historial de Pedidos"/>
+  <img src="https://github.com/user-attachments/assets/da6c6b41-70a7-4674-960f-51298140dd75" width="30%" alt="Captura 9: Configuración de Notificaciones"/>
+</p>
+
+
 
 
