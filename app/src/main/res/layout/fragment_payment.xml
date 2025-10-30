@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0B1444">
+
+    <!-- Header -->
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Payment Details"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="32dp" />
+
+    <!-- Credit Card Preview -->
+    <LinearLayout
+        android:id="@+id/cardPreview"
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_height="150dp"
+        android:background="@color/cardview_dark_background"
+        android:padding="16dp"
+        android:layout_marginHorizontal="24dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintTop_toBottomOf="@id/tvTitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <TextView
+            android:id="@+id/tvCardNumberPreview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0000 0000 0000 0000"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:layout_marginTop="30dp" />
+
+        <TextView
+            android:id="@+id/tvExpiryPreview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MM/YY"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="8dp" />
+    </LinearLayout>
+
+    <!-- Card Name -->
+    <EditText
+        android:id="@+id/etCardName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Card Name"
+        android:textColorHint="#B0B0B0"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#5E6EFF"
+        app:layout_constraintTop_toBottomOf="@id/cardPreview"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="24dp"
+        android:layout_marginHorizontal="24dp" />
+
+    <!-- Card Number -->
+    <EditText
+        android:id="@+id/etCardNumber"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Card Number"
+        android:inputType="number"
+        android:maxLength="20"
+        android:textColorHint="#B0B0B0"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#5E6EFF"
+        app:layout_constraintTop_toBottomOf="@id/etCardName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="12dp"
+        android:layout_marginHorizontal="24dp" />
+
+    <!-- Expiry and CVV -->
+    <LinearLayout
+        android:id="@+id/expiryLayout"
+        android:orientation="horizontal"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="24dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintTop_toBottomOf="@id/etCardNumber"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <EditText
+            android:id="@+id/etExpiry"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Expiry Date (MM/YY)"
+            android:textColorHint="#B0B0B0"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#5E6EFF"
+            android:inputType="number"
+            android:maxLength="5" />
+
+        <Space
+            android:layout_width="12dp"
+            android:layout_height="match_parent" />
+
+        <EditText
+            android:id="@+id/etCVV"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="CVV"
+            android:textColorHint="#B0B0B0"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#5E6EFF"
+            android:inputType="numberPassword"
+            android:maxLength="3" />
+    </LinearLayout>
+
+    <!-- Pay Now Button -->
+    <Button
+        android:id="@+id/btnPayNow"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Pay Now"
+        android:backgroundTint="#5E6EFF"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="24dp"
+        android:layout_marginHorizontal="24dp"
+        app:layout_constraintTop_toBottomOf="@id/expiryLayout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
