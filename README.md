@@ -47,13 +47,21 @@ The entire application flow, user journeys, and mock-ups were designed using **F
 ## DEMO
 1.Youtube:https://youtube.com/shorts/5cXU52d-EQY?feature=share
 
+### Screenshots 
 
-![WhatsApp Image 2025-10-30 at 11 57 15_6618eb17](https://github.com/user-attachments/assets/2407196f-004b-41ec-a71d-c27d1aad4797)
-![WhatsApp Image 2025-10-30 at 11 57 15_e42ef525](https://github.com/user-attachments/assets/3d110306-7d0a-47b8-aa6c-e933c0d1c039)
-![WhatsApp Image 2025-10-30 at 11 57 15_54a0e398](https://github.com/user-attachments/assets/4144108d-2bda-455d-8471-e10f1dc9c0f8)
-![WhatsApp Image 2025-10-30 at 11 57 15_2fc7fd2f](https://github.com/user-attachments/assets/0be98932-1c03-4175-84e1-5530a4123c50)
-![WhatsApp Image 2025-10-30 at 11 57 15_93a3a907](https://github.com/user-attachments/assets/4dc4026f-edcf-40d6-b5b0-c255711b42b6)
-![WhatsApp Image 2025-10-30 at 11 57 15_e97cbe2b](https://github.com/user-attachments/assets/da6c6b41-70a7-4674-960f-51298140dd75)
+**1:**
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/2407196f-004b-41ec-a71d-c27d1aad4797" width="30%" alt="Captura 4: Creación de Pedido"/>
+  <img src="https://github.com/user-attachments/assets/3d110306-7d0a-47b8-aa6c-e933c0d1c039" width="30%" alt="Captura 5: Detalles del Ítem"/>
+  <img src="https://github.com/user-attachments/assets/4144108d-2bda-455d-8471-e10f1dc9c0f8" width="30%" alt="Captura 6: Confirmación de Pago"/>
+</p>
+
+**2:**
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/0be98932-1c03-4175-84e1-5530a4123c50" width="30%" alt="Captura 7: Perfil de Usuario"/>
+  <img src="https://github.com/user-attachments/assets/4dc4026f-edcf-40d6-b5b0-c255711b42b6" width="30%" alt="Captura 8: Historial de Pedidos"/>
+  <img src="https://github.com/user-attachments/assets/da6c6b41-70a7-4674-960f-51298140dd75" width="30%" alt="Captura 9: Configuración de Notificaciones"/>
+</p>
 
 
 
